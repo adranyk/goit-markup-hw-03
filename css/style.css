@@ -1,0 +1,75 @@
+:root {
+  /* --brand-color: #3f51b5; */
+  --header-color: #2E2F42;
+  --main-text-color: #434455;
+  --main-text-font-size: 16px;
+  --hover-and-background-color: #404BBF;
+  --brand-color: #4D5AE5;
+
+}
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: var(--main-text-font-size) ;
+  color:var(--main-text-color);
+  font-weight: 400;
+  line-height: 1.5
+
+}
+h1,h2,h3,h4,h5,h6 {
+  text-transform: capitalize;
+  color: var(--header-color);
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: var(--hover-and-background-color)
+}
+.filter-buttons button {
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #F4F4FD;
+  letter-spacing: 0.04em;
+  color: var(--brand-color);
+  font-weight: 500;
+  font-size: var(--main-text-font-size);
+  line-height: 1.5
+}
+.filter-buttons button:hover,  .filter-buttons button:focus{
+  background-color: var(--hover-and-background-color);
+  color: #fff;
+}
+
+
+.logo {  
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.nav-menu {
+  font-weight: 500;
+}
+.nav-contacts a {
+  color: var(--main-text-color) ;
+  font-style: normal;
+}
+
+.benefits h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.logo span{
+  color: var(--brand-color);
+}
